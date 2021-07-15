@@ -1,7 +1,30 @@
-.cab{
-    text-align: center;
+body {
+	font-family: arial, sans-serif;
+	background: #dddddd;
+ 	color: rgb(0,0,0,1);       
+}
+
+
+
+
+#interface {
+	width: 1300px;
+    height: 200px;
+    background: black;
 }
 
 .p{
+    position: absolute;
+    margin: -20px 430px ;
     text-align: center;
+    color: #ffffff;
 }
+
+.img1{
+    width: 800px;
+    height: 600px;
+    background: #ffffff;
+    position: absolute;
+    margin: 20px 250px ;
+}
+
