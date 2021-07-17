@@ -1,6 +1,6 @@
 body {
 	font-family: arial, sans-serif;
-	background: #dddddd;
+	background: #000000;
  	color: rgb(0,0,0,1);       
 }
 
@@ -10,21 +10,83 @@ body {
 #interface {
 	width: 1300px;
     height: 200px;
-    background: black;
+    background: #ffffff;
 }
 
 .p{
     position: absolute;
-    margin: -20px 430px ;
+    margin: -20px 430px;
     text-align: center;
-    color: #ffffff;
+    color: #000000;
 }
 
 .img1{
     width: 800px;
-    height: 600px;
+    height: 500px;
     background: #ffffff;
     position: absolute;
-    margin: 20px 250px ;
+    margin: 10px 250px ;
 }
 
+.fig{
+    width: 100%;
+    display: block;
+    background-color: transparent;
+   
+}
+
+.i{
+    position: absolute;
+    margin: -0px 700px;
+}
+
+.lado{
+    width: 240px;
+    height: 500px;
+    background:#000000;
+    position: absolute;
+    margin: 10px 1090px ; 
+}
+
+.rodape{
+    margin: 0 auto;
+    width: 1300px;
+    height: 90px;
+    background: #000000;
+    position: absolute;
+    margin: 520px -1px ; 
+}
+
+input {
+    
+    margin: 10px;
+    width: 100px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    
+    
+}
+
+.text{
+    width: 197px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+.foo{
+    text-align: center;
+}
+
+.img2{
+    position: absolute;
+    margin: 20px -20px;
+}
+
+#cont{
+    text-align: center;
+    
+}
