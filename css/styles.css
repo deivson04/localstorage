@@ -1,6 +1,6 @@
 body {
 	font-family: arial, sans-serif;
-	background: #000000;
+	background: #FFFFE0;
  	color: rgb(0,0,0,1);       
 }
 
@@ -32,13 +32,21 @@ body {
     width: 100%;
     display: block;
     background-color: transparent;
-   
+    
 }
 
 .i{
     position: absolute;
-    margin: -0px 700px;
+    margin: 70px 900px;
+    font-size: 20px;
 }
+
+.ii{
+    position: absolute;
+    margin: 70px 800px;
+    font-size: 20px;
+}
+
 
 .lado{
     width: 240px;
@@ -90,3 +98,20 @@ p{
     text-align: center;
     
 }
+
+.pro{
+    position: absolute;
+    margin: 10px 400px;
+}
+
+#conti{
+        
+        margin: 0 auto;
+        width: 400px;
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+        margin: 150px 430px;
+    
+    }
+
