@@ -1,46 +1,53 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    <title>LogNet</title>
-  </head>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <title>LogNet</title>
+    </head>
 
 
-  <body>     
-    <div id="interface">
-      <header id="cabecalho"->    
-       <img src="img/log.png">       
-       <h2 class="p">A tecnologia Transformando o mundo.</h2>   
-       <a class="i" href="pedidos.html">pedidos</a>
-       <a class="ii" href="index.html">Home</a>
-       <!--img class="i" src="img/logoblackfriday.png"-->
-      </header> 
-      <div id="conti">
-       <form>
-        <div>
-            <label for="nome">Nome Completo:</label>
-            <input type="text" id="nome" />
+    <body>     
+        <div id="interface">
+        <header id="cabecalho"->    
+        <img src="img/log.png">       
+        <h2 class="p">A tecnologia Transformando o mundo.</h2>   
+        <a class="i" href="pedidos.html">pedidos</a>
+        <a class="ii" href="index.html">Home</a>
+        <!--img class="i" src="img/logoblackfriday.png"-->
+        </header> 
+        <div id="conti">
+        <form>
+            <div>
+                <label for="nome">Nome Completo:</label>
+                <input class="text" nome="nome" />
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input class="email" email="email" />
+            </div>
+            <div>
+                <label for="endereco">Endereço:</label>
+                <input class="text" endereco="endereco" />
+            </div>
+            
+            
+            <div>
+                <h5>Produtos</h5>
+                <input type="text" id="placadevideo" placadevideo="placadevideo" value="Placa de video">
+                <label for="placadevideo"></label><br>
+                <input type="text" id="headerphone fone" headerphone="headerphone" value="headerphone">
+                <label for="css"></label><br>
+                <input type="text" id="placamae" placamae="placamae" value="Placa mae">
+                <label for="placamae"></label>
+                <input type="button" value="Enviar" class="btn btn-primary mt-3" onclick="addIcar()" onclick="validar()" >
+            </div>
+        </form>
+        
         </div>
-        <div>
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" />
-        </div>
-        <div>
-            <input type="radio" id="placadevideo" name="fav_language" value="PLACADEVIDEO">
-            <label for="placadevideo">PLACA DE VIDEO</label><br>
-            <input type="radio" id="headerphone fone" name="fav_language" value="HEADERPHONE">
-            <label for="css">HEADERPHONE</label><br>
-            <input type="radio" id="placamae" name="fav_language" value="PlACA MAE">
-            <label for="placamae">PLACAMAE</label>
-            <input type="button" value="Enviar" class="btn btn-primary mt-3" onclick="addIcar()">
-        </div>
-       </form>
-      
-      </div>
-    </body>
-</html>        
+        </body>
+    </html>        
